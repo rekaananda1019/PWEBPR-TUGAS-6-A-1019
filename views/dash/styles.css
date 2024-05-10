@@ -1,0 +1,168 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #2f6cdb, #21a9df);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+/* Login/Register form styles */
+.login-form, .register-form {
+    background-color: #92c5e2;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form h2, .register-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#register-link, #login-link {
+    color: #0a2d52;
+    cursor: pointer;
+}
+
+/* Dashboard styles */
+.sidebar {
+    background-color: #92c5e2;
+    padding: 40px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 5px; /* Menghilangkan margin bottom agar tidak ada jarak antara dashboard dan sidebar account */
+}
+
+.sidebar h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.dashboard {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Table styles */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #f2f2f2;
+}
+
+/* Logout button styles */
+#logout-btn {
+    margin-top: 20px;
+    width: 100%;
+}
+
+#logout-btn:hover {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+/* Account */
+
+.sidebar {
+    background-color: #92c5e2;
+    padding: 20px;
+    border-radius: px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.profile img {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 20%px;
+    align-items: center;
+
+}
+
+.profile h3, .profile p {
+    margin: 0 auto;
+}
+
+.sidebar-icons {
+    margin-top: 20px;
+}
+
+.sidebar-icons a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.sidebar-icons a i {
+    margin-right: 5px;
+}
+/* dashboard */
+.sidebar {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column; /* Mengatur arah flex menjadi kolom */
+    margin-bottom: 20px; /* Menambahkan ruang di bawah sidebar */
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    display: block;
+    padding: 10px 0;
+    text-decoration: none;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+.sidebar ul li a:hover, .sidebar ul li a.active {
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    color: #007bff;
+}
+
+.inbox-message {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(83, 187, 235);
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 25px;
+    font-size: 14px;
+    margin-left: 5px;
+}
